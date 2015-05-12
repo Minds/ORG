@@ -1,0 +1,5 @@
+{
+  "generator-angular-require": {
+    "appPath": "app"
+  }
+}

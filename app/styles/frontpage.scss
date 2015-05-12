@@ -1,0 +1,46 @@
+$orange: #FFCC00;
+
+.front-page{
+
+  .banner{
+    
+    .buttons{
+      float:left;
+      margin-left:16px;
+      clear:left;
+      
+      .btn{
+        color:#FFF;
+        font-size:30px;
+        font-family:"Roboto Slab";
+        font-weight:300;
+        padding:8px 24px;
+        margin-right:8px;
+        border-radius:3px;
+        background:$orange;
+        border:1px solid $orange;
+        
+      }
+      .btn-invert{
+        background:transparent;        
+      }
+    }
+    
+    .iphone-mockup{
+      float:right;
+      height:300px;
+      margin-top:40px;
+      overflow:hidden;
+    }
+    
+  }
+  
+  
+  
+  @media screen and (max-width: 720px) {
+      .iphone-mockup{
+        display:none;
+      }
+  }
+  
+}
