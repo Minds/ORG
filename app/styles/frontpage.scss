@@ -3,6 +3,38 @@ $orange: #FFCC00;
 .front-page{
 
   .banner{
+  
+    overflow:hidden;
+    margin-top:-100px;
+    min-height:600px;
+  
+    .video{
+      position:absolute;
+      min-width: 100%;
+      video{
+        min-height: 600px;
+        min-width: 100%;
+        position:absolute;
+        top:0;
+        left:0;
+        
+        opacity: .6;
+        z-index: 1;
+        -webkit-transition: opacity 1500ms linear;
+        -moz-transition: opacity 1500ms linear;
+        transition: opacity 1500ms linear;
+      }
+    }
+    
+    .absolute-wrapper{
+      position:absolute;
+      width:100%;
+      z-index:2;
+    }
+    
+    .code-block{
+      margin:250px 16px 25px;
+    }
     
     .buttons{
       float:left;
@@ -29,7 +61,7 @@ $orange: #FFCC00;
     .iphone-mockup{
       float:right;
       height:300px;
-      margin-top:40px;
+      margin-top:200px;
       overflow:hidden;
     }
     
