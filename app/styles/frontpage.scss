@@ -68,6 +68,16 @@ $orange: #FFCC00;
   }
   
   
+  .tech{
+    text-align:center;
+    img{
+      margin:0 8px;
+    }
+    p{
+      clear:both;
+      margin:24px;
+    }
+  }
   
   @media screen and (max-width: 720px) {
       .iphone-mockup{
