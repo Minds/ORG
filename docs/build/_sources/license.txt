@@ -4,7 +4,7 @@ License
 
 AGPLv3
 
-Any modification to source code or service must be made publicly available and licensed under the AGPLv3 license.
+Any modification to the source code or service must be made publicly available and licensed under the AGPLv3 license.
 
 .. note::
 
