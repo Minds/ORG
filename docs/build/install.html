@@ -83,7 +83,12 @@
             
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuration">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
 </ul>
 
@@ -131,7 +136,34 @@
             
   <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
-<p>We&#8217;re working on making it easier!</p>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>PHP 5.6, PHP 7</li>
+<li>Nginx</li>
+<li>Cassandra 2.2 or greater</li>
+<li>RabbitMQ</li>
+<li>OpenSSL</li>
+</ul>
+<p><em>optional</em></p>
+<ul class="simple">
+<li>MongoDB <em>(for boost)</em></li>
+<li>Neo4j 2.2 or greater <em>(for discovery)</em></li>
+<li>Redis <em>(for pubsub, live and caching)</em></li>
+</ul>
+</div>
+<div class="section" id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>php bin/cli.php install
+</pre></div>
+</div>
+</div>
+<div class="section" id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>foobar</li>
+</ul>
+</div>
 </div>
 
 
