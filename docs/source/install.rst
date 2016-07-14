@@ -1,5 +1,12 @@
-############
+============
 Installation
-############
+============
 
-We're working on making it easier!
+.. toctree::
+   :maxdepth: 2
+
+   install/download
+   install/vagrant
+   install/requirements
+   install/installation
+   install/troubleshooting
