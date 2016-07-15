@@ -6,4 +6,7 @@ Troubleshooting
 
 TK issues when installing
 
-TK link to vagrant's troubleshooting section
+Vagrant
+=======
+
+Check :ref:`install_vagrant_troubleshooting`
