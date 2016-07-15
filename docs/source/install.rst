@@ -1,6 +1,6 @@
-============
-Installation
-============
+========================
+Downloading & Installing
+========================
 
 .. toctree::
    :maxdepth: 2

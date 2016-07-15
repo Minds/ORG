@@ -1,3 +1,5 @@
+.. _install_vagrant:
+
 ===================
 Vagrant Environment
 ===================
@@ -20,14 +22,14 @@ Setting Up
 
   #. Download and install Vagrant_.
   #. Download and install VirtualBox_.
-  #. Append ``10.54.0.111 dev.minds.io`` to your **/etc/hosts** file.
+  #. Append ``10.54.0.111 dev.minds.io`` to your :file:`/etc/hosts` file.
   #. In your terminal:
       - Go to the folder where you downloaded/cloned `Minds Cookbook on GitHub`_.
       - Run ``vagrant plugin install vagrant-berkshelf vagrant-omnibus``
       - Run ``vagrant up``
 
-Note: ``/etc/hosts`` file is located at
-**%SystemRoot%\\system32\\drivers\\etc\\hosts** on Windows.
+.. note:: :file:`/etc/hosts` file is located at the
+  :file:`{%SystemRoot%}\\system32\\drivers\\etc\\hosts` on Windows.
 
 .. _VirtualBox: https://www.virtualbox.org/
 
