@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to the Minds developer docs!
-=================================
+====================================
 
 Contents:
 
@@ -12,5 +12,6 @@ Contents:
    :maxdepth: 2
 
    license
+   cli
    install
    tutorial
