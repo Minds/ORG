@@ -68,8 +68,16 @@ Third-Party Integrations
                                               *Default: (empty)*
 --facebook-app-secret=VALUE                   Facebook app secret for user migrations action.
                                               *Default: (empty)*
+--twilio-account-sid=VALUE                    Twilio account SID for SMS.
+                                              *Default: (empty)*
+--twilio-auth-token=VALUE                     Twilio authentication token for SMS.
+                                              *Default: (empty)*
+--twilio-from=VALUE                           Twilio sender's phone number. *Default: (empty)*
 --google-api-key=VALUE                        Google API key for Push notifications, geolocation
                                               and translation. *Default: (empty)*
+--apple-certificate=PATH                      Path to Apple Developer Program certificate
+                                              file. *Default: (empty)*
+--apple-sandbox-enabled                       Apple Developer Program sandbox mode status.
 
 Customization
 -------------
