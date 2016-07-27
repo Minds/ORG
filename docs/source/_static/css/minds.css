@@ -1,0 +1,9 @@
+@import url("theme.css");
+
+.wy-side-nav-search{
+  background:transparent;
+}
+
+.wy-side-nav-search img.logo{
+  max-height:90px;
+}
