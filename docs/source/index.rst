@@ -6,6 +6,9 @@
 Welcome to the Minds developer docs!
 ====================================
 
+.. meta::
+  :github_url: https://github.com/minds/org/docs
+
 Contents:
 
 .. toctree::

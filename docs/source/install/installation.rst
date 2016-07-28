@@ -16,7 +16,7 @@ page for more details.
 .. note:: Before installing Minds, ensure the target system meets the :ref:`install_requirements`.
 
 .. tip:: **Heads up!** If you installed :ref:`install_vagrant` you might need to
-  go to the cookbook folder in the host computer and run: ``vagrant up && vagrant ssh``.
+  go to run the following inside the vm: ``vagrant ssh``.
 
   Once you're logged in onto the virtual machine, you can find
   the Minds installation folder in :file:`/var/www/Minds`.

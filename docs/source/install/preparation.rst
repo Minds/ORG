@@ -4,9 +4,23 @@
 Preparation
 ===========
 
-TK talk about npm install
+Server Setup
+============
 
-TK talk about gulp on root folder
-that download git submodules and does
-the initial engine frontend npm install
-and gulp build
+Minds has a one script installation to provision an ubuntu machine.
+Run ``bin/bootstrap-ubuntu.sh``
+
+Front end
+=========
+
+.. code::
+
+  npm install
+  gulp build && gulp build.index
+
+Engine (PHP)
+=========
+
+.. code::
+
+  composer install

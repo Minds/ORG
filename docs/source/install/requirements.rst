@@ -4,7 +4,7 @@
 Requirements
 ============
 
-TK about being tailored to an Ubuntu system
+* Ubuntu 14.04
 
 Required Components
 ===================
