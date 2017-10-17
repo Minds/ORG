@@ -1,8 +1,6 @@
 ############
-Tutorial
+Tutorials
 ############
-
-*ok* ok
 
 .. toctree::
    :maxdepth: 2

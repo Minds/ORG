@@ -55,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Minds'
-copyright = u'2016, Minds. CC BY SA 3.0'
+copyright = u'2017, Minds. CC BY SA 3.0'
 author = u'Minds'
 
 # The version info for the project you're documenting, acts as replacement for

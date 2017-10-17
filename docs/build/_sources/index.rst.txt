@@ -4,13 +4,16 @@
    contain the root `toctree` directive.
 
 Welcome to the Minds developer docs!
-=================================
+====================================
 
-Contents:
+.. meta::
+  :github_url: https://github.com/minds/org/docs
 
 .. toctree::
    :maxdepth: 2
 
    license
    install
+   testing
    tutorial
+   contributing

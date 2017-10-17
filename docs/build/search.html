@@ -13,6 +13,8 @@
 
   
   
+  
+  
 
   
 
@@ -24,12 +26,15 @@
 
   
   
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/minds.css" type="text/css" />
   
 
   
 
   
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="#"/>
     <link rel="top" title="Minds dev-0.1a documentation" href="index.html"/> 
 
   
@@ -39,6 +44,7 @@
 
 <body class="wy-body-for-nav" role="document">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -51,6 +57,9 @@
             <a href="index.html" class="icon icon-home"> Minds
           
 
+          
+            
+            <img src="_static/logo_small.png" class="logo" />
           
           </a>
 
@@ -79,10 +88,70 @@
           
             
             
-                <ul>
+              
+            
+            
+              <ul>
 <li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
-<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Downloading &amp; Installing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install/requirements.html">1. Requirements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install/requirements.html#development">1.1. Development</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install/requirements.html#production">1.2. Production</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install/requirements.html#optional-components">1.3. Optional Components</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="install/download.html">2. Download</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install/preparation.html">3. Preparation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install/preparation.html#front-end">3.1. Front end</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install/preparation.html#engine-php">3.2. Engine (PHP)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="install/vagrant.html">4. Environments</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install/vagrant.html#vagrant-development-environment">4.1. Vagrant Development Environment</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="install/vagrant.html#setting-up">4.1.1. Setting Up</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="install/vagrant.html#production">4.2. Production</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="install/installation.html">5. Self-install Script</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install/installation.html#installing">5.1. Installing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install/installation.html#available-options">5.2. Available Options</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="install/installation.html#core">5.2.1. Core</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/installation.html#storage">5.2.2. Storage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/installation.html#paths">5.2.3. Paths</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/installation.html#third-party-integrations">5.2.4. Third-Party Integrations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/installation.html#customization">5.2.5. Customization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/installation.html#socket-io-integration">5.2.6. Socket.IO Integration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/installation.html#development-only">5.2.7. Development-only</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="install/troubleshooting.html">6. Troubleshooting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install/troubleshooting.html#troubleshooting-vagrant">6.1. Troubleshooting Vagrant</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="install/troubleshooting.html#general">6.1.1. General</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/troubleshooting.html#ubuntu-hosts">6.1.2. Ubuntu Hosts</a></li>
+<li class="toctree-l4"><a class="reference internal" href="install/troubleshooting.html#windows-hosts">6.1.3. Windows Hosts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/plugins.html">Plugins</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorial/plugins.html#creating-a-plugin">Creating a plugin</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#general-discussion">General Discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#bugs">Bugs</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -95,8 +164,10 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Minds</a>
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Minds</a>
+        
       </nav>
 
 
@@ -109,15 +180,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
-      
-    <li></li>
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Search</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -138,6 +226,9 @@
   </div>
 
            </div>
+           <div class="articleComments">
+            
+           </div>
           </div>
           <footer>
   
@@ -146,7 +237,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016, Minds.
+        &copy; Copyright 2017, Minds. CC BY SA 3.0.
 
     </p>
   </div> 
@@ -170,7 +261,8 @@
             VERSION:'dev-0.1a',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="_static/jquery.js"></script>
