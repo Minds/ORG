@@ -1,26 +1,25 @@
 .. _install_installation:
 
 ===================
-Self-install Script
+Docker
 ===================
 
 Installing
 ==========
 
-Minds provides a handy CLI tool that allows you to manage your network
-from the comfort of your terminal software.
+Minds provides Docker Containers and Docker Compose configuration files in order to get running locally.
 
-``$ php bin/cli.php install [OPTIONS]``
+1. Run ``sh init.sh`` in order to install the front and engine repositories
+2. Run ``docker-compose up -d nginx``
+3. Run ``docker-compose exec cassandra nodetool enablethrift``
+4. Run ``docker-compose up installer`` (one time only.. initial username: minds / password: password)
+5. Run ``docker-compose up front-build`` 
+6. Navigate to ``http://localhost:8080``
 
 .. note:: Before installing Minds, ensure the target system meets the :ref:`install_requirements`.
 
-.. tip:: **Heads up!** If you installed the :ref:`install_development` you might need to
-  go to run the following inside the vm: ``vagrant ssh``.
 
-  Once you're logged in onto the virtual machine, you can find
-  the Minds installation folder in :file:`/var/www/Minds`.
-
-Available Options
+Provisioner Options (Expert Mode)
 =================
 
 Core

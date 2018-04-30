@@ -8,11 +8,9 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>5. Self-install Script &mdash; Minds dev-0.1a documentation</title>
+  <title>3. Docker &mdash; Minds dev-0.1a documentation</title>
   
 
-  
-  
   
   
 
@@ -32,13 +30,10 @@
   
 
   
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="Minds dev-0.1a documentation" href="../index.html"/>
         <link rel="up" title="Downloading &amp; Installing" href="../install.html"/>
-        <link rel="next" title="6. Troubleshooting" href="troubleshooting.html"/>
-        <link rel="prev" title="4. Environments" href="vagrant.html"/> 
+        <link rel="next" title="4. Troubleshooting" href="troubleshooting.html"/>
+        <link rel="prev" title="2. Download" href="download.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -62,7 +57,7 @@
 
           
             
-            <img src="../_static/logo_small.png" class="logo" />
+            <img src="../_static/logo-white.png" class="logo" />
           
           </a>
 
@@ -91,51 +86,33 @@
           
             
             
-              
-            
-            
-              <ul class="current">
+                <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../license.html">License</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../install.html">Downloading &amp; Installing</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="requirements.html">1. Requirements</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="requirements.html#development">1.1. Development</a></li>
-<li class="toctree-l3"><a class="reference internal" href="requirements.html#production">1.2. Production</a></li>
-<li class="toctree-l3"><a class="reference internal" href="requirements.html#optional-components">1.3. Optional Components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="requirements.html#production">1.1. Production</a></li>
+<li class="toctree-l3"><a class="reference internal" href="requirements.html#optional-components">1.2. Optional Components</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="download.html">2. Download</a></li>
-<li class="toctree-l2"><a class="reference internal" href="preparation.html">3. Preparation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="preparation.html#front-end">3.1. Front end</a></li>
-<li class="toctree-l3"><a class="reference internal" href="preparation.html#engine-php">3.2. Engine (PHP)</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="vagrant.html">4. Environments</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="vagrant.html#vagrant-development-environment">4.1. Vagrant Development Environment</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="vagrant.html#setting-up">4.1.1. Setting Up</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="vagrant.html#production">4.2. Production</a></li>
-</ul>
-</li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">5. Self-install Script</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#installing">5.1. Installing</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#available-options">5.2. Available Options</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#core">5.2.1. Core</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#storage">5.2.2. Storage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#paths">5.2.3. Paths</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#third-party-integrations">5.2.4. Third-Party Integrations</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#customization">5.2.5. Customization</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#socket-io-integration">5.2.6. Socket.IO Integration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#development-only">5.2.7. Development-only</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3. Docker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing">3.1. Installing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#provisioner-options-expert-mode">3.2. Provisioner Options (Expert Mode)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#core">3.2.1. Core</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#storage">3.2.2. Storage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#paths">3.2.3. Paths</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#third-party-integrations">3.2.4. Third-Party Integrations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#customization">3.2.5. Customization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#socket-io-integration">3.2.6. Socket.IO Integration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#development-only">3.2.7. Development-only</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">6. Troubleshooting</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#troubleshooting-vagrant">6.1. Troubleshooting Vagrant</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="troubleshooting.html#general">6.1.1. General</a></li>
-<li class="toctree-l4"><a class="reference internal" href="troubleshooting.html#ubuntu-hosts">6.1.2. Ubuntu Hosts</a></li>
-<li class="toctree-l4"><a class="reference internal" href="troubleshooting.html#windows-hosts">6.1.3. Windows Hosts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">4. Troubleshooting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#docker-installation">4.1. Docker Installation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="troubleshooting.html#minds-is-already-installed">4.1.1. Minds is already installed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="troubleshooting.html#cassandra-will-not-boot">4.1.2. Cassandra will not boot</a></li>
 </ul>
 </li>
 </ul>
@@ -191,58 +168,52 @@
 
 
 
-
-
 <div role="navigation" aria-label="breadcrumbs navigation">
-
   <ul class="wy-breadcrumbs">
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
           <li><a href="../install.html">Downloading &amp; Installing</a> &raquo;</li>
         
-      <li>5. Self-install Script</li>
+      <li>3. Docker</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/install/installation.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/install/installation.txt" rel="nofollow"> View page source</a>
           
         
       </li>
     
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="self-install-script">
-<span id="install-installation"></span><h1>5. Self-install Script<a class="headerlink" href="#self-install-script" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="docker">
+<span id="install-installation"></span><h1>3. Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="installing">
-<h2>5.1. Installing<a class="headerlink" href="#installing" title="Permalink to this headline">¶</a></h2>
-<p>Minds provides a handy CLI tool that allows you to manage your network
-from the comfort of your terminal software.</p>
-<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">php</span> <span class="pre">bin/cli.php</span> <span class="pre">install</span> <span class="pre">[OPTIONS]</span></code></p>
+<h2>3.1. Installing<a class="headerlink" href="#installing" title="Permalink to this headline">¶</a></h2>
+<p>Minds provides Docker Containers and Docker Compose configuration files in order to get running locally.</p>
+<ol class="arabic simple">
+<li>Run <code class="docutils literal"><span class="pre">sh</span> <span class="pre">init.sh</span></code> in order to install the front and engine repositories</li>
+<li>Run <code class="docutils literal"><span class="pre">docker-compose</span> <span class="pre">up</span> <span class="pre">-d</span> <span class="pre">nginx</span></code></li>
+<li>Run <code class="docutils literal"><span class="pre">docker-compose</span> <span class="pre">exec</span> <span class="pre">cassandra</span> <span class="pre">nodetool</span> <span class="pre">enablethrift</span></code></li>
+<li>Run <code class="docutils literal"><span class="pre">docker-compose</span> <span class="pre">up</span> <span class="pre">installer</span></code> (one time only.. initial username: minds / password: password)</li>
+<li>Run <code class="docutils literal"><span class="pre">docker-compose</span> <span class="pre">up</span> <span class="pre">front-build</span></code></li>
+<li>Navigate to <code class="docutils literal"><span class="pre">http://localhost:8080</span></code></li>
+</ol>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Before installing Minds, ensure the target system meets the <a class="reference internal" href="requirements.html#install-requirements"><span class="std std-ref">Requirements</span></a>.</p>
 </div>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p><strong>Heads up!</strong> If you installed the <a class="reference internal" href="vagrant.html#install-development"><span class="std std-ref">Vagrant Development Environment</span></a> you might need to
-go to run the following inside the vm: <code class="docutils literal"><span class="pre">vagrant</span> <span class="pre">ssh</span></code>.</p>
-<p class="last">Once you’re logged in onto the virtual machine, you can find
-the Minds installation folder in <code class="file docutils literal"><span class="pre">/var/www/Minds</span></code>.</p>
 </div>
-</div>
-<div class="section" id="available-options">
-<h2>5.2. Available Options<a class="headerlink" href="#available-options" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="provisioner-options-expert-mode">
+<h2>3.2. Provisioner Options (Expert Mode)<a class="headerlink" href="#provisioner-options-expert-mode" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="core">
-<h3>5.2.1. Core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h3>
+<h3>3.2.1. Core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h3>
 <table class="docutils option-list" frame="void" rules="none">
 <col class="option" />
 <col class="description" />
@@ -250,27 +221,27 @@ the Minds installation folder in <code class="file docutils literal"><span class
 <tr><td class="option-group">
 <kbd><span class="option">--domain=<var>VALUE</var></span></kbd></td>
 <td>Domain where Minds will run. Please note that
-if you’re using the Vagrant environment, you
-should use “dev.minds.io” unless you’re willing
+if you&#8217;re using the Vagrant environment, you
+should use &#8220;dev.minds.io&#8221; unless you&#8217;re willing
 to customize nginx configuration.</td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--username=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Super-admin username.</td></tr>
+<tr><td>&nbsp;</td><td>Super-admin username.</td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--password=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Super-admin password.</td></tr>
+<tr><td>&nbsp;</td><td>Super-admin password.</td></tr>
 <tr><td class="option-group">
 <kbd><span class="option">--email=<var>VALUE</var></span></kbd></td>
 <td>Super-admin email address. Please note that this
-is different than –site-email, which is used for
+is different than &#8211;site-email, which is used for
 system-related emails (i.e. error dumps, etc).</td></tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="storage">
-<h3>5.2.2. Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h3>
+<h3>3.2.2. Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h3>
 <table class="docutils option-list" frame="void" rules="none">
 <col class="option" />
 <col class="description" />
@@ -278,33 +249,33 @@ system-related emails (i.e. error dumps, etc).</td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--cassandra-keyspace=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Cassandra keyspace to be created and used
-by your Minds installation. <em>Default: “minds”</em></td></tr>
+<tr><td>&nbsp;</td><td>Cassandra keyspace to be created and used
+by your Minds installation. <em>Default: &#8220;minds&#8221;</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--cassandra-server=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Cassandra server IP address or host name
-<em>Default: “127.0.0.1”</em></td></tr>
+<tr><td>&nbsp;</td><td>Cassandra server IP address or host name
+<em>Default: &#8220;127.0.0.1&#8221;</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--cassandra-replication-factor=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Number of keyspace data copies stored in the
+<tr><td>&nbsp;</td><td>Number of keyspace data copies stored in the
 Cassandra cluster(s).</td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--elasticsearch-server=<var>URL</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>ElasticSearch endpoint to be used.
-<em>Default: “http://127.0.0.1:9200/”</em></td></tr>
+<tr><td>&nbsp;</td><td>ElasticSearch endpoint to be used.
+<em>Default: &#8220;http://127.0.0.1:9200/&#8221;</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--elasticsearch-prefix=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Prefix to be used when storing ElasticSearch
-documents. <em>Default: “mehmac_”</em></td></tr>
+<tr><td>&nbsp;</td><td>Prefix to be used when storing ElasticSearch
+documents. <em>Default: &#8220;mehmac_&#8221;</em></td></tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="paths">
-<h3>5.2.3. Paths<a class="headerlink" href="#paths" title="Permalink to this headline">¶</a></h3>
+<h3>3.2.3. Paths<a class="headerlink" href="#paths" title="Permalink to this headline">¶</a></h3>
 <table class="docutils option-list" frame="void" rules="none">
 <col class="option" />
 <col class="description" />
@@ -315,18 +286,18 @@ documents. <em>Default: “mehmac_”</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--dataroot=<var>PATH</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Path to be used for storing uploads and other
-user-generated content. <em>Default: “/data/”</em></td></tr>
+<tr><td>&nbsp;</td><td>Path to be used for storing uploads and other
+user-generated content. <em>Default: &#8220;/data/&#8221;</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--cache-path=<var>PATH</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Path to be used as filesystem-based cache.
-<em>Default: “/tmp/minds-cache/</em></td></tr>
+<tr><td>&nbsp;</td><td>Path to be used as filesystem-based cache.
+<em>Default: &#8220;/tmp/minds-cache/</em></td></tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="third-party-integrations">
-<h3>5.2.4. Third-Party Integrations<a class="headerlink" href="#third-party-integrations" title="Permalink to this headline">¶</a></h3>
+<h3>3.2.4. Third-Party Integrations<a class="headerlink" href="#third-party-integrations" title="Permalink to this headline">¶</a></h3>
 <table class="docutils option-list" frame="void" rules="none">
 <col class="option" />
 <col class="description" />
@@ -334,46 +305,46 @@ user-generated content. <em>Default: “/data/”</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--facebook-app-id=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Facebook app ID for user migrations action.
+<tr><td>&nbsp;</td><td>Facebook app ID for user migrations action.
 <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--facebook-app-secret=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Facebook app secret for user migrations action.
+<tr><td>&nbsp;</td><td>Facebook app secret for user migrations action.
 <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--twilio-account-sid=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Twilio account SID for SMS.
+<tr><td>&nbsp;</td><td>Twilio account SID for SMS.
 <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--twilio-auth-token=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Twilio authentication token for SMS.
+<tr><td>&nbsp;</td><td>Twilio authentication token for SMS.
 <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--twilio-from=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Twilio sender’s phone number. <em>Default: (empty)</em></td></tr>
+<tr><td>&nbsp;</td><td>Twilio sender&#8217;s phone number. <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--google-api-key=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Google API key for Push notifications, geolocation
+<tr><td>&nbsp;</td><td>Google API key for Push notifications, geolocation
 and translation. <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--apple-certificate=<var>PATH</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Path to Apple Developer Program certificate
+<tr><td>&nbsp;</td><td>Path to Apple Developer Program certificate
 file. <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--apple-sandbox-enabled</span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Apple Developer Program sandbox mode status.</td></tr>
+<tr><td>&nbsp;</td><td>Apple Developer Program sandbox mode status.</td></tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="customization">
-<h3>5.2.5. Customization<a class="headerlink" href="#customization" title="Permalink to this headline">¶</a></h3>
+<h3>3.2.5. Customization<a class="headerlink" href="#customization" title="Permalink to this headline">¶</a></h3>
 <table class="docutils option-list" frame="void" rules="none">
 <col class="option" />
 <col class="description" />
@@ -381,24 +352,24 @@ file. <em>Default: (empty)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--site-email=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Email address used to send administrative (site-wide)
-alerts and error dumps. <em>Default: “root&#64;localhost”</em></td></tr>
+<tr><td>&nbsp;</td><td>Email address used to send administrative (site-wide)
+alerts and error dumps. <em>Default: &#8220;root&#64;localhost&#8221;</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--site-name=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Name of the site. Please note that this is for
+<tr><td>&nbsp;</td><td>Name of the site. Please note that this is for
 internal use. Most name representations are present
-in frontend’s HTML markup. <em>Default: “Minds”</em></td></tr>
+in frontend&#8217;s HTML markup. <em>Default: &#8220;Minds&#8221;</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--site-secret=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Secret to be used as encryption salt and other
+<tr><td>&nbsp;</td><td>Secret to be used as encryption salt and other
 authentication processes. <em>Default: (auto-generated)</em></td></tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="socket-io-integration">
-<h3>5.2.6. Socket.IO Integration<a class="headerlink" href="#socket-io-integration" title="Permalink to this headline">¶</a></h3>
+<h3>3.2.6. Socket.IO Integration<a class="headerlink" href="#socket-io-integration" title="Permalink to this headline">¶</a></h3>
 <table class="docutils option-list" frame="void" rules="none">
 <col class="option" />
 <col class="description" />
@@ -406,26 +377,26 @@ authentication processes. <em>Default: (auto-generated)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--socket-server-uri=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Domain and port where the socket server is running.
+<tr><td>&nbsp;</td><td>Domain and port where the socket server is running.
 This setting is client-facing, so use a public
-domain or IP address. <em>Default: (same as –domain
-with “:8010” appended)</em></td></tr>
+domain or IP address. <em>Default: (same as &#8211;domain
+with &#8221;:8010&#8221; appended)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--jwt-secret=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Secret to be used to encrypt JWT cookies allowing
+<tr><td>&nbsp;</td><td>Secret to be used to encrypt JWT cookies allowing
 API &lt;-&gt; Socket.IO session persistance.
 <em>Default: (auto-generated)</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--jwt-domain=<var>VALUE</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>Domain where the JWT cookies are used.
-<em>Default: (same as –domain)</em></td></tr>
+<tr><td>&nbsp;</td><td>Domain where the JWT cookies are used.
+<em>Default: (same as &#8211;domain)</em></td></tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="development-only">
-<h3>5.2.7. Development-only<a class="headerlink" href="#development-only" title="Permalink to this headline">¶</a></h3>
+<h3>3.2.7. Development-only<a class="headerlink" href="#development-only" title="Permalink to this headline">¶</a></h3>
 <table class="docutils option-list" frame="void" rules="none">
 <col class="option" />
 <col class="description" />
@@ -438,9 +409,9 @@ installation!</em></td></tr>
 <tr><td class="option-group" colspan="2">
 <kbd><span class="option">--default-site=<var>ID</var></span></kbd></td>
 </tr>
-<tr><td>&#160;</td><td>ID to be used for the site entity. Don’t modify this
-unless you know what you’re doing.
-<em>Default: “1”</em></td></tr>
+<tr><td>&nbsp;</td><td>ID to be used for the site entity. Don&#8217;t modify this
+unless you know what you&#8217;re doing.
+<em>Default: &#8220;1&#8221;</em></td></tr>
 </tbody>
 </table>
 </div>
@@ -449,18 +420,15 @@ unless you know what you’re doing.
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="troubleshooting.html" class="btn btn-neutral float-right" title="6. Troubleshooting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="troubleshooting.html" class="btn btn-neutral float-right" title="4. Troubleshooting" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="vagrant.html" class="btn btn-neutral" title="4. Environments" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="download.html" class="btn btn-neutral" title="2. Download" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -493,8 +461,7 @@ unless you know what you’re doing.
             VERSION:'dev-0.1a',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
+            HAS_SOURCE:  true
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>

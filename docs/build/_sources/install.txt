@@ -8,7 +8,5 @@ Downloading & Installing
 
    install/requirements
    install/download
-   install/preparation
-   install/vagrant
    install/installation
    install/troubleshooting
