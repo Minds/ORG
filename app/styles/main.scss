@@ -5,16 +5,16 @@ $lato: "Lato";
 $orange: #FFCC00;
 
 @font-face {
-  font-family: 'fontello';
-  src: url('fonts/fontello.eot?55589523');
-  src: url('fonts/fontello.eot?55589523#iefix') format('embedded-opentype'),
-       url('fonts/fontello.woff?55589523') format('woff'),
-       url('fonts/fontello.ttf?55589523') format('truetype'),
-       url('fonts/fontello.svg?55589523#fontello') format('svg');
+  font-family: 'minds_org';
+  src: url('fonts/minds_org.eot?39062049');
+  src: url('fonts/minds_org.eot?39062049#iefix') format('embedded-opentype'),
+  url('fonts/minds_org.woff2?39062049') format('woff2'),
+  url('fonts/minds_org.woff?39062049') format('woff'),
+  url('fonts/minds_org.ttf?39062049') format('truetype'),
+  url('fonts/minds_org.svg?39062049#minds_org') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -36,7 +36,7 @@ body {
   border:0;
   border-radius:0;
   z-index:3;
-  
+
   .container-fluid{
     max-width:1300px;
   }
@@ -45,12 +45,12 @@ body {
     margin:0;
     padding:0;
     margin:8px 0 24px;
-    
+
     img{
       display:inline-block;
       height:60px;
     }
-    
+
     h1{
       font-family:$roboto;
       font-size:38px;
@@ -62,10 +62,10 @@ body {
       vertical-align:middle;
     }
   }
-  
+
   .navbar-nav{
     float:right;
-    
+
     li {
       font-family:$roboto;
       font-weight:400;
@@ -145,27 +145,27 @@ body {
   min-height:500px;
   background:#333;
   position:relative;
-  
+
   .inner{
     margin:auto;
     max-width:1300px;
   }
-  
+
   .code-block{
     margin:72px 16px 25px;
     float:left;
-    
+
     p{
       color:$orange;
       font-size:24px;
       font-family:"Roboto Slab";
       font-weight:200;
-      
+
       .spacer{
         display:inline-block;
         width:30px;
       }
-      
+
     }
   }
 }
@@ -177,7 +177,7 @@ body {
     text-align:center;
     text-align: center;
     padding: 78px 0;
-    
+
     h1{
       font-size:46px;
       font-weight:300;
@@ -187,13 +187,13 @@ body {
       font-weight:300;
     }
   }
-  
+
 .feature{
   margin:72px 0;
   display:flex;
-  
+
   .icon{
-    font-family: 'fontello';
+    font-family: 'minds_org';
     font-size: 150px;
     width: 321px;
     margin: 13px;
